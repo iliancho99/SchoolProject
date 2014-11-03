@@ -6,9 +6,10 @@ namespace SchoolProject
 	{
 		public static void Main (string[] args)
 		{
-			string text = File.ReadAllText("../main.txt");
-			Console.ForegroundColor = ConsoleColor.Yellow;
-			Console.WriteLine (text);
+			int a = int.Parse (Console.ReadLine ());
+			int b = int.Parse (Console.ReadLine());
+			int c = a + b;
+			Console.WriteLine (c);
 		}
 	}
 }
