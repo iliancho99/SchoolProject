@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{23E039C5-6E2C-478B-AA0B-6B16DC139DDD}</ProjectGuid>
+    <ProjectGuid>{EFF7D7FA-ADC0-4904-B692-CC1FDA060AAD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>SchoolProject</RootNamespace>
     <AssemblyName>SchoolProject</AssemblyName>
@@ -34,8 +34,9 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="WriteSourceCode.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
