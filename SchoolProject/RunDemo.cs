@@ -17,7 +17,11 @@ public class RunDemo
 		case "d4":
 			SumNNums ();
 			break;
+        case "d5":
+            SumFromNumberDigit();
+            break;
 		}
+       
 	}
 
 	public static void ExchangeVariable()
@@ -59,6 +63,19 @@ public class RunDemo
 		}
 		Console.WriteLine ("Сумата е : {0}",sum);
 	}
+    public static void SumFromNumberDigit() {
+        Console.Write("Въведи n = ");
+        int n = int.Parse(Console.ReadLine());
+        int sum = 0;
+        int a;
+        Console.Write("Сумата от чифрите на {0}",n);
+        while(n != 0){
+            a = n % 10;
+            sum = sum + a;
+            n = n / 10;
+        }
+        Console.WriteLine(" е: {0}",sum);
+    }
 }
 
 

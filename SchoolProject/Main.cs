@@ -14,6 +14,7 @@ class MainClass
 			Console.WriteLine ("Размяна на две променливе начин-2 = 2");
 			Console.WriteLine ("Максималното от n числа = 3");
 			Console.WriteLine ("Сумата на n числа = 4");
+            Console.WriteLine("Сумата от цифрите на число = 5");
 			string input = Console.ReadLine ();
 			if(input[0] == 'd'){
 				RunDemo.demo(input);

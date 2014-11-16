@@ -19,6 +19,9 @@ public class WriteSourceCode
 		case "c4":
 			text = System.IO.File.ReadAllText ("C-Codes/Sum-ot-n-chisla.txt");
 			break;
+        case "c5":
+            text = System.IO.File.ReadAllText("C-Codes/Sumata-ot-cifrite-na-chislo.txt");
+            break;
 		}
 		Console.WriteLine (text);
 	}
