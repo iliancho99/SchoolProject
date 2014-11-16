@@ -3,7 +3,7 @@ using System;
 
 public class WriteSourceCode
 {
-	public void WriteCode (string input)
+	public static void WriteCode (string input)
 	{
 		string text = "Няма такъв код";
 		switch (input) {
@@ -13,7 +13,11 @@ public class WriteSourceCode
 		case "c2":
 			text = System.IO.File.ReadAllText ("C-Codes/Razmqna-na-dve-promenlivi-2.txt");
 			break;
-		default:
+		case "c3":
+			text = System.IO.File.ReadAllText("C-Codes/Max-ot-n-chisla.txt");
+			break;
+		case "c4":
+			text = System.IO.File.ReadAllText ("C-Codes/Sum-ot-n-chisla.txt");
 			break;
 		}
 		Console.WriteLine (text);

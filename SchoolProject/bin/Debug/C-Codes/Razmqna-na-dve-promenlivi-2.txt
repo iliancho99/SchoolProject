@@ -5,7 +5,9 @@ void main()
 {
     int a;
     int b;
+    printf("a = ");
     scanf("%d",&a);
+    printf("b = ");
     scanf("%d",&b);
     a = a + b;
     b = a - b;

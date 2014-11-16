@@ -4,12 +4,15 @@
 void main(void)
 {
     int n,a,max,i;
+    printf("n = ");
     scanf("%d",&n);
     i = 2;
+    printf("a = ");
     scanf("%d",&a);
     max = a;
     while(i <= n)
     {
+    	printf("a = ");
         scanf("%d",&a);
         if(a > max)
         {
