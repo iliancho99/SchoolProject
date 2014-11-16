@@ -1,0 +1,4 @@
+C:\Users\Илиян\Desktop\SchoolProject\SchoolProject\bin\Debug\SchoolProject.exe
+C:\Users\Илиян\Desktop\SchoolProject\SchoolProject\bin\Debug\SchoolProject.pdb
+C:\Users\Илиян\Desktop\SchoolProject\SchoolProject\obj\x86\Debug\SchoolProject.exe
+C:\Users\Илиян\Desktop\SchoolProject\SchoolProject\obj\x86\Debug\SchoolProject.pdb
